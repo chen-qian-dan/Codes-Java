@@ -11,7 +11,9 @@ public class Dog {
 
 	// attributes
 	private String strName; 
-	private int nAge; 
+	private int nAge;
+	
+	protected static int count = 0; 
 	
 	// default constructor
 	public Dog()
